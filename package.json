@@ -11,7 +11,10 @@
     "url": "https://github.com/Krzysiek102/ReactAdminApp/issues"
   },
   "homepage": "https://github.com/Krzysiek102/ReactAdminApp#readme",
-"dependencies": {
+  "scripts": {
+    "start": "babel-node tools/srcServer.js"
+  },
+  "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
     "jquery": "2.2.3",
@@ -62,5 +65,5 @@
     "webpack": "1.13.0",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
-  }    
+  }
 }
